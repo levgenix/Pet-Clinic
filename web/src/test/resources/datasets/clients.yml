@@ -1,0 +1,64 @@
+ROLE:
+  - NAME: "CLIENT"
+
+USER_ENTITIES:
+  - ID: 3
+    USER_TYPE: "CLIENT"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Ivan"
+    LASTNAME: "Ivanov"
+    EMAIL: "user3@gmail.com"
+    PASSWORD: "user3"
+
+  - ID: 4
+    USER_TYPE: "CLIENT"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Sergey"
+    LASTNAME: "Sergeyev"
+    EMAIL: "user4@gmail.com"
+    PASSWORD: "user4"
+
+  - ID: 5
+    USER_TYPE: "CLIENT"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Petr"
+    LASTNAME: "Petrov"
+    EMAIL: "user5@gmail.com"
+    PASSWORD: "user5"
+
+USER_ROLE:
+  - USER_ID: 3
+    ROLE_NAME: "CLIENT"
+  - USER_ID: 4
+    ROLE_NAME: "CLIENT"
+  - USER_ID: 5
+    ROLE_NAME: "CLIENT"
+
+PET_ENTITIES:
+  - ID: 100
+    PET_TYPE: "DOG"
+    AVATAR: "test.png"
+    BIRTH_DAY: "2020-05-13"
+    BREED: "breed1"
+    COLOR: "BLACK"
+    DESCRIPTION: "medium dog female black breed1"
+    GENDER: "FEMALE"
+    NAME: "pet1"
+    PET_SIZE: "MEDIUM"
+    WEIGHT: 10
+    CLIENT_ID: 3
+  - ID: 101
+    PET_TYPE: "CAT"
+    AVATAR: "test.png"
+    BIRTH_DAY: "2019-05-13"
+    BREED: "breed2"
+    COLOR: "WHITE"
+    DESCRIPTION: "small cat female white breed2"
+    GENDER: "FEMALE"
+    NAME: "pet2"
+    PET_SIZE: "SMALL"
+    WEIGHT: 3
+    CLIENT_ID: 3

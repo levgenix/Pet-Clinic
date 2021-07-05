@@ -1,0 +1,9 @@
+PET_FOUND:
+  - ID: 100
+    LATITUDE: "1.2345678"
+    LONGITUDE: "2.3456789"
+    TEXT: "Some text"
+  - ID: 101
+    LATITUDE: "1.9365678"
+    LONGITUDE: "2.1236789"
+    TEXT: "Another some text"

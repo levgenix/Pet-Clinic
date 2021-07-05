@@ -1,0 +1,69 @@
+USER_ENTITIES:
+  - ID: 100
+    USER_TYPE: "ADMIN"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Admin"
+    LASTNAME: "Admin"
+    EMAIL: "admin@gmail.com"
+    PASSWORD: "admin"
+  - ID: 101
+    USER_TYPE: "MANAGER"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Manager"
+    LASTNAME: "Manager"
+    EMAIL: "manager@gmail.com"
+    PASSWORD: "manager"
+  - ID: 102
+    USER_TYPE: "CLIENT"
+    ENABLED: true
+    FIRSTNAME: "Client"
+    LASTNAME: "Client"
+    EMAIL: "client1@email.com"
+    PASSWORD: "client"
+  - ID: 103
+    USER_TYPE: "DOCTOR"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Dr."
+    LASTNAME: "Petrov"
+    EMAIL: "doctor103@email.com"
+    PASSWORD: "doctor"
+  - ID: 3
+    USER_TYPE: "CLIENT"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Ivan"
+    LASTNAME: "Ivanov"
+    EMAIL: "user3@gmail.com"
+    PASSWORD: "user3"
+  - ID: 4
+    USER_TYPE: "CLIENT"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Petr"
+    LASTNAME: "Petrov"
+    EMAIL: "user4@gmail.com"
+    PASSWORD: "user4"
+
+ROLE:
+  - NAME: "ADMIN"
+  - NAME: "MANAGER"
+  - NAME: "CLIENT"
+  - NAME: "UNVERIFIED_CLIENT"
+  - NAME: "DOCTOR"
+
+USER_ROLE:
+  - USER_ID: 100
+    ROLE_NAME: "ADMIN"
+  - USER_ID: 101
+    ROLE_NAME: "MANAGER"
+  - USER_ID: 102
+    ROLE_NAME: "CLIENT"
+  - USER_ID: 103
+    ROLE_NAME: "DOCTOR"
+  - USER_ID: 3
+    ROLE_NAME: "CLIENT"
+  - USER_ID: 4
+    ROLE_NAME: "CLIENT"

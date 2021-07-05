@@ -1,0 +1,11 @@
+MEDICINE:
+  - ID: 100
+    DESCRIPTION: "test_description1"
+    ICON: "test.png"
+    MANUFACTURE_NAME: "test_manufacture_name1"
+    NAME: "name1"
+  - ID: 101
+    DESCRIPTION: "test_description2"
+    ICON: "test.png"
+    MANUFACTURE_NAME: "test_manufacture_name2"
+    NAME: "name2"

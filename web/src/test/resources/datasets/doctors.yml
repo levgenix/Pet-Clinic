@@ -1,0 +1,46 @@
+ROLE:
+  - NAME: "DOCTOR"
+
+USER_ENTITIES:
+  - ID: 33
+    USER_TYPE: "DOCTOR"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Doctor"
+    LASTNAME: "Doctor"
+    EMAIL: "doctor33@gmail.com"
+    PASSWORD: "user33"
+
+  - ID: 34
+    USER_TYPE: "DOCTOR"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Vinni"
+    LASTNAME: "Pukh"
+    EMAIL: "doctor34@gmail.com"
+    PASSWORD: "user34"
+
+  - ID: 35
+    USER_TYPE: "DOCTOR"
+    AVATAR: "test.png"
+    ENABLED: true
+    FIRSTNAME: "Doctor"
+    LASTNAME: "House"
+    EMAIL: "doctor35@gmail.com"
+    PASSWORD: "user35"
+
+USER_ROLE:
+
+  - USER_ID: 33
+    ROLE_NAME: "DOCTOR"
+  - USER_ID: 34
+    ROLE_NAME: "DOCTOR"
+  - USER_ID: 35
+    ROLE_NAME: "DOCTOR"
+
+
+
+
+
+
+

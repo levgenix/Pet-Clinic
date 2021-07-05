@@ -1,0 +1,97 @@
+PET_ENTITIES:
+  - ID: 100
+    PET_TYPE: "DOG"
+    AVATAR: "test.png"
+    BIRTH_DAY: "2020-05-13"
+    BREED: "breed1"
+    COLOR: "BLACK"
+    DESCRIPTION: "medium dog female black breed1"
+    GENDER: "FEMALE"
+    NAME: "pet1"
+    PET_SIZE: "MEDIUM"
+    WEIGHT: 10
+    CLIENT_ID: 4
+  - ID: 101
+    PET_TYPE: "CAT"
+    AVATAR: "test.png"
+    BIRTH_DAY: "2019-05-13"
+    BREED: "breed2"
+    COLOR: "WHITE"
+    DESCRIPTION: "small cat female white breed2"
+    GENDER: "FEMALE"
+    NAME: "pet2"
+    PET_SIZE: "SMALL"
+    WEIGHT: 3
+    CLIENT_ID: 3
+  - ID: 102
+    PET_TYPE: "DOG"
+    AVATAR: "test.png"
+    BIRTH_DAY: "2018-05-13"
+    BREED: "breed3"
+    COLOR: "YELLOW"
+    DESCRIPTION: "big dog male yellow breed3"
+    GENDER: "MALE"
+    NAME: "pet3"
+    PET_SIZE: "BIG"
+    WEIGHT: 21
+    CLIENT_ID: 3
+  - ID: 103
+    PET_TYPE: "DOG"
+    AVATAR: "test.png"
+    BIRTH_DAY: "2018-05-13"
+    BREED: "breed4"
+    COLOR: "GREY"
+    DESCRIPTION: "big dog male grey breed4"
+    GENDER: "MALE"
+    NAME: "pet4"
+    PET_SIZE: "BIG"
+    WEIGHT: 21
+    CLIENT_ID: 3
+  - ID: 104
+    PET_TYPE: "CAT"
+    AVATAR: "test.png"
+    BIRTH_DAY: "2018-05-13"
+    BREED: "breed5"
+    COLOR: "GREY"
+    DESCRIPTION: "big dog male grey breed5"
+    GENDER: "MALE"
+    NAME: "pet5"
+    PET_SIZE: "BIG"
+    WEIGHT: 21
+    CLIENT_ID: 3
+  - ID: 105
+    PET_TYPE: "CAT"
+    AVATAR: "test.png"
+    BIRTH_DAY: "2018-05-13"
+    BREED: "breed6"
+    COLOR: "GREY"
+    DESCRIPTION: "big dog male grey breed6"
+    GENDER: "MALE"
+    NAME: "pet6"
+    PET_SIZE: "BIG"
+    WEIGHT: 21
+    CLIENT_ID: 3
+  - ID: 106
+    PET_TYPE: "DOG"
+    AVATAR: "test.png"
+    BIRTH_DAY: "2018-05-13"
+    BREED: "breed7"
+    COLOR: "GREY"
+    DESCRIPTION: "big dog male grey breed7"
+    GENDER: "MALE"
+    NAME: "pet7"
+    PET_SIZE: "BIG"
+    WEIGHT: 21
+    CLIENT_ID: 3
+  - ID: 107
+    PET_TYPE: "DOG"
+    AVATAR: "dog.png"
+    BIRTH_DAY: "2000-01-01"
+    BREED: "breed7"
+    COLOR: "BLACK"
+    DESCRIPTION: "Очень старая, но добрая псина"
+    GENDER: "MALE"
+    NAME: "Старый добрый пес"
+    PET_SIZE: "BIG"
+    WEIGHT: 22
+    CLIENT_ID: 102
