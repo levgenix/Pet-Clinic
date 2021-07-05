@@ -9,17 +9,25 @@ To create and start the database enter the following command in the terminal in 
 
 ```docker-compose up -d```
 
-To stop service
+To stop service ```docker-compose stop```
 
-```docker-compose stop```
-
-Start service
-
-```docker-compose start```
+Start service ```docker-compose start```
 
 Stop and remove containers
 
 ```docker-compose down```
+```docker-compose rm```
+
+To clear containers: ```docker rm -f $(docker ps -a -q)```
+
+To clear images: ```docker rmi -f $(docker images -a -q)```
+
+To clear volumes: ```docker volume rm $(docker volume ls -q)```
+
+To clear networks: ```docker network rm $(docker network ls | tail -n+2 | awk '{if($2 !~ /bridge|none|host/){ print $1 }}')```
+
+then restarting docker
+```$ sudo service docker restart```
 
 - Our database is available on the local computer under port 5433 and container port 5432
 - **Port for test database is 5434.**
@@ -101,3 +109,8 @@ For start VaadinPetClinicRunner you should:
 2. Install [required tools](https://vaadin.com/docs/v14/guide/install). 
 3. Reload maven dependencies and type ```npm install``` in the terminal.
 4. Run http://localhost:9090 in a browser.
+
+
+
+
+mvn post-clean

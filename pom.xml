@@ -22,7 +22,7 @@
     <artifactId>pet_clinic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>pet_clinic</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Pet clinic project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
     </properties>
